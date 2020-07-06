@@ -1,0 +1,13 @@
+description: Retrieved promotion information successfully.
+body:
+  application/json:
+    type: object
+    examples:
+      promotionGetResponse:
+        get-promotion-example:
+          archived: false
+          assignmentInformation:
+            active: false
+            enabled: true
+            scheduleType: none
+
